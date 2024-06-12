@@ -8,9 +8,9 @@ dotenv.config()
 const TENDERLY_USER = process.env.NEXT_PUBLIC_USER
 const TENDERLY_TOKEN = process.env.NEXT_PUBLIC_TOKEN
 const TENDERLY_PROJECT = process.env.NEXT_PUBLIC_PROJECT
-const DUMMY_ETH_ADDRESS = "0x0000000000000000000000000000000000000012"
+const DUMMY_ETH_ADDRESS = "0x0000000000000000000000000000000000000012" // Don't change this.
 const amount = 100e6
-const currentAddress = "0x5e078E6b545cF88aBD5BB58d27488eF8BE0D2593"
+const currentAddress = "0x5e078E6b545cF88aBD5BB58d27488eF8BE0D2593" // Test EOA address.
 
 async function simulate() {
     const tenderlyBaseChainInstance = new Tenderly({
