@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@tenderly/sdk": "^0.2.6",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0"
+  }
+}
